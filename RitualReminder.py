@@ -40,6 +40,7 @@ def read_file(clienttxt):
         line = f.readline()
         if "FindClosestObject" in line:
             popup()
+            print("Ritual Found")
         if not line:
             time.sleep(0.1)
             continue
@@ -129,8 +130,6 @@ except:
 else:
     if 'Client.txt' not in client:
         set_client_location()
-
-
 try:
     config.read('RitualReminderPopSettings.ini')
     x_location = config['SETTINGS']['x_location']
