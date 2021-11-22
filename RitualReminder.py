@@ -24,14 +24,6 @@ def popup():
     objectFinder.geometry(f"200x100+{x_location}+{y_location}")
     objectFinder.mainloop()
 
-# def running_pop():
-#     """Creates a small tkinter window telling the user the script is running."""
-#     running = tk.Tk()
-#     runningFrame = tk.LabelFrame(running, text="Ritual Reminder")
-#     runningFrame.pack()
-#     runningMenu = ttk.Label(runningFrame, text='Running')
-#     runningMenu.pack()
-
 def read_file(clienttxt):
     """Reads client.txt file constantly for "FindClosestObject"."""
     f = open(clienttxt)
