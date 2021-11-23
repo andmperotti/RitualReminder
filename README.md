@@ -29,3 +29,5 @@ Disclaimer: This is my first programming project, and I will work on it when I h
 #Mapwatch has added a ritual reminder after I brought to light "FindClosestObject" was being inserted into the client.txt, I highly recommend using his app/tool as it has many useful other functions! https://github.com/mapwatch/mapwatch
 
 If you would like to change the location of your popup you can open the RitualReminderPopSettings.ini while the script is not running and type new locations yourself, or delete that settings file and then run the script.
+
+Final note, please go ahead and yoink this code if you can make it better, as long as it helps the POE community then I'm all for it!
