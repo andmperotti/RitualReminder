@@ -7,6 +7,7 @@ from tkinter import filedialog
 import time
 import configparser
 from tkinter.filedialog import askopenfilename
+import datetime
 
 #Setting up some shortcuts/global variables to use in our code
 config = configparser.ConfigParser()
@@ -27,15 +28,15 @@ def popup():
 def read_file(clienttxt):
     """Reads client.txt file constantly for "FindClosestObject"."""
     with open(clienttxt, encoding='utf-8') as f:
-    f.seek(0,2)
-    while True:
-        line = f.readline()
-        if "FindClosestObject" in line:
-            popup()
-            print("Ritual Found")
-        if not line:
-            time.sleep(0.1)
-            continue
+        f.seek(0,2)
+        while True:
+            line = f.readline()
+            if "FindClosestObject" in line:
+                print(f"Ritual Interacted with at:{datetime.datetime.now()}")
+                popup()
+            if not line:
+                time.sleep(0.1)
+                continue
 
 def set_client_location():
     """Asks user to select location of client.txt file."""
