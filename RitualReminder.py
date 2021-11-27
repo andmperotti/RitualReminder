@@ -26,7 +26,7 @@ def popup():
 
 def read_file(clienttxt):
     """Reads client.txt file constantly for "FindClosestObject"."""
-    f = open(clienttxt)
+    f = open(clienttxt, encoding='utf-8')
     f.seek(0,2)
     while True:
         line = f.readline()
