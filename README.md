@@ -31,3 +31,5 @@ Disclaimer: This is my first programming project, and I will work on it when I h
 If you would like to change the location of your popup you can open the RitualReminderPopSettings.ini while the script is not running and type new locations yourself, or delete that settings file and then run the script.
 
 Final note, please go ahead and yoink this code if you can make it better, as long as it helps the POE community then I'm all for it!
+
+11/30/2021 : Added a lightweight programmer build, it only uses code in one file, no pop ups for setting up values or Client.txt location, etc.
