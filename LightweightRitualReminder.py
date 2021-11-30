@@ -1,11 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-from tkinter import filedialog 
 import time
-import configparser
-from tkinter.filedialog import askopenfilename
 import datetime
-import os
 
 clienttxt = 'C:/Program Files (x86)/Grinding Gear Games/Path of Exile/logs/Client.txt' #path to your Client.txt file
 
