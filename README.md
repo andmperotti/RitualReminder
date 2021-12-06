@@ -31,7 +31,7 @@ When you open the script it will run in a command prompt window, you need to kee
 
 Disclaimer: This is my first programming project, and I will work on it when I have time to. Apologies for any delays.
 
-#Mapwatch has added a ritual reminder after I brought to light "FindClosestObject" was being inserted into the client.txt, I highly recommend using his app/tool as it has many useful other functions! https://github.com/mapwatch/mapwatch
+#Mapwatch has added a ritual reminder after I brought to light that "FindClosestObject" was being inserted into the client.txt, I highly recommend using his app/tool as it has many useful other functions! https://github.com/mapwatch/mapwatch 
 
 
 Final note, please go ahead and yoink this code if you can make it better, as long as it helps the POE community then I'm all for it!
