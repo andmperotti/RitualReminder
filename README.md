@@ -6,9 +6,11 @@ A python script that reads the client.txt file of Path of exile and alerts users
 Requires Python installation. 
 
 https://www.python.org/
+
 https://i.imgur.com/vsYRM5J.png
 
 add to path
+
 https://i.imgur.com/zzgJElV.png
 
 For selecting your client file:
