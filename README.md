@@ -22,7 +22,7 @@ is where you'd find your Client.txt file if you defaulted to normal pathing when
 
 To change where the pop up occurs:
 <img src="https://i.imgur.com/OXPNdct.png">
-change these value, the first represents the X version, how many pixels from the left of your screen the top left corner of the pop up will be placed at. The seconf value being the Y value, which is how many pixels down from the top of the screen the popup window will be at.
+change these values, the first represents the X version, how many pixels from the left of your screen the top left corner of the pop up will be placed at. The seconf value being the Y value, which is how many pixels down from the top of the screen the popup window will be at.
 
 When you open the script it will run in a command prompt window, you need to keep that open and running. While running each time you click on a ritual in game it will create a print out in that command prompt window telling you what time you interacted with a ritual.
 
