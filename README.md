@@ -20,16 +20,18 @@ For Standalone (pathofexile.com downloader) client file:
 C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs
 is where you'd find your Client.txt file if you defaulted to normal pathing when downloading
 
-For now, after initial launch of the script, close it and reopen it to begin working... I'm working on that.
+To change where the pop up occurs:
+< img src="https://i.imgur.com/OXPNdct.png">
+change these value, the first represents the X version, how many pixels from the left of your screen the top left corner of the pop up will be placed at. The seconf value being the Y value, which is how many pixels down from the top of the screen the popup window will be at.
 
+When you open the script it will run in a command prompt window, you need to keep that open and running. While running each time you click on a ritual in game it will create a print out in that command prompt window telling you what time you interacted with a ritual.
 
 
 Disclaimer: This is my first programming project, and I will work on it when I have time to. Apologies for any delays.
 
 #Mapwatch has added a ritual reminder after I brought to light "FindClosestObject" was being inserted into the client.txt, I highly recommend using his app/tool as it has many useful other functions! https://github.com/mapwatch/mapwatch
 
-If you would like to change the location of your popup you can open the RitualReminderPopSettings.ini while the script is not running and type new locations yourself, or delete that settings file and then run the script.
 
 Final note, please go ahead and yoink this code if you can make it better, as long as it helps the POE community then I'm all for it!
 
-11/30/2021 : Added a lightweight programmer build, it only uses code in one file, no pop ups for setting up values or Client.txt location, etc.
+12/6/2021 Update: Removed first version for a more lightweight edition.
