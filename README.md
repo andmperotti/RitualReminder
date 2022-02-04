@@ -14,6 +14,7 @@ add to path
 <img src="https://i.imgur.com/zzgJElV.png">
 
 After installing python, run command prompt (type "cmd" without the quotes into the box that comes up after pressing the windows key and the R key at the same time. Then type this: pip install datetime
+
 That will install a library of code for python to log in the terminal window while ritualReminder runs to log times of when you clicked on ritual.
 
 For selecting your client file:
