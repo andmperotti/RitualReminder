@@ -1,6 +1,11 @@
 # RitualReminder
 A python script that reads the client.txt file of Path of exile and alerts users when they interact with a Ritual in the game via a lightweight tkinter gui popup. 
 
+video walkthrough: 
+https://www.twitch.tv/videos/1286822982
+
+
+
 <img src="https://i.imgur.com/9rokc1S.jpg">
 
 Requires Python installation. 
