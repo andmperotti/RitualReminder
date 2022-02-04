@@ -17,6 +17,21 @@ After installing python, run command prompt (type "cmd" without the quotes into 
 
 That will install a library of code for python to log in the terminal window while ritualReminder runs to log times of when you clicked on ritual.
 
+
+FOR THE RITUAL REMINDER FILE:
+
+On the right side of your screen there is a release section:
+
+CLICK ON "Lightweight Version Finalized Latest"
+
+Scroll down to the "Source code (zip)", download that
+
+unzip the file and find the "RitualReminder.py" file, put that where ever you want.
+
+
+
+
+
 For selecting your client file:
 For Steam Users:
 C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\
