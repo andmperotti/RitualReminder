@@ -1,4 +1,8 @@
 # RitualReminder
+
+As of 3.17 When entering Karui Shores, there are errors that proc the "FIndClosestObject" wording in the client.txt... nothing I can do about that.
+
+
 A python script that reads the client.txt file of Path of exile and alerts users when they interact with a Ritual in the game via a lightweight tkinter gui popup. 
 
 video walkthrough: 
@@ -63,4 +67,5 @@ Disclaimer: This was my first programming project, and I will work on it when I 
 Final note, please go ahead and yoink this code if you can make it better, as long as it helps the POE community then I'm all for it!
 
 12/6/2021 Update: Removed first version for a more lightweight edition.
+
 2/4/2022 Update: Restructured this page to show images and explained in detail how to install datetime module.
