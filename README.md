@@ -1,3 +1,6 @@
+Edit: As of 12/24/2022 it seems as if GGG has fixed the interaction with clicking on a ritual encounter and it proccing the text line in the client file resulting in terminating the functionality of this program :(
+
+
 # RitualReminder
 
 As of 3.17 When entering Karui Shores, there are errors that proc the "FIndClosestObject" wording in the client.txt... nothing I can do about that.
